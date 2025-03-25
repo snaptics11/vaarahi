@@ -783,12 +783,12 @@ img.img-fluid.LandDevelopement {
     width: 300px !important;    
 } */
 .aboutsectionImages1 {
-    height: 300px;
+    height: auto;
     width: 400px;
 }
 .aboutsectionImages2 {
-    height: 320px;
-    width: 310px;
+    height: auto;
+    width: 100%;
 }
 .footer a{
     color: #B0B9AE ;
@@ -890,6 +890,11 @@ img.img-fluid.LandDevelopement {
 @media screen and (min-width:576px) and (max-width:991px){
     .aboutsectionImages1,.aboutsectionImages2 {
         height: 100%;
+        width: 100%;
+    }
+}
+@media screen and (max-width:992px){
+    .LocationContactSection iframe{
         width: 100%;
     }
 }

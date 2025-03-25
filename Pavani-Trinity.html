@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sri VaarahiInfra Developers</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./img/Mainlogo.jpg">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Rubik:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .text-warning {
+            color: #ff5e14 !important;
+        }
+
+        .project-description {
+            position: relative;
+            z-index: 1;
+        }
+
+        .project-description .overlay {
+            background-color: rgb(225 244 252);
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: 0;
+        }
+
+        .project-description .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .list-unstyled {
+            display: flex;
+            gap: 10px;
+        }
+
+        .list-unstyled li {
+            margin-block: 7px;
+            background: #000;
+            padding: 15px;
+            color: #fff;
+        }
+
+        .project-description .text-warning {
+            padding-bottom: 10px;
+        }
+
+        @media screen and (max-width:992px) {
+            .list-unstyled {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-0">
+        <div class="row g-0 d-none d-lg-flex">
+            <div class="col-lg-6 ps-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center text-white">
+                    <span>Follow Us:</span>
+                    <a class="btn btn-link text-light" target="_blank"
+                        href="https://www.facebook.com/SriVaarahiInfraDeveloper/"><i class="fab fa-facebook-f"></i></a>
+                    <!-- <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a> -->
+                    <a class="btn btn-link text-light" target="_blank" href="https://www.instagram.com/srivaarahi3/"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-end">
+                <div class="h-100 topbar-right d-inline-flex align-items-center text-white  py-2 px-5">
+                    <span class="fs-5 fw-bold me-2 "><i class="fa fa-phone-alt me-2"></i>Call Us:</span>
+                    <span class="fs-5 fw-bold">
+                        <a class="text-white" target="_blank" href="tel:+919573382014">+91 95733 82014</a>
+                    </span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
+        <a href="index.html" class="navbar-brand ps-5 me-0">
+            <img class="VaaraHiLogo" src="./img/Mainlogo.png" alt="">
+            <!-- <h1 class=" m-0">Vaarahi</h1> -->
+        </a>
+        <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <!-- <a href="service.html" class="nav-item nav-link">Services</a> -->
+                <a href="project.html" class="nav-item nav-link active">Projects</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="contact.html" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 wow fadeIn " data-wow-delay="0.1s"
+        style="background: rgba(0, 0, 0, 0.7) center/cover no-repeat url(/img/emerald2.jpg);">
+        <div class="container py-5 text-center">
+            <h1 class="display-3  animated slideInRight text-white"
+                style="text-transform: uppercase; background-color: rgba(35, 45, 110, 0.7); width: fit-content;margin: auto; padding: 10px; margin-bottom: 10px;">
+                Pavani Trinity
+            </h1>
+            <p class="breadcrumb-item active " aria-current="page"
+                style="background-color: rgba(35, 45, 110, 0.7); width: fit-content;margin: auto; padding: 10px;font-weight: 600;">
+                Luxury Gated Community in Thimmapur, Hyderabad
+            </p>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <section class="project-description py-5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h2 class="fw-bold text-uppercase pb-4">Pallavi – Luxury Triplex Villas in a Premium Gated
+                        Community</h2>
+                    <p>Located in <strong>Thimmapur, near Bangalore Highway, Pavani Trinity</strong> is a <strong>premium gated community</strong> offering <strong>HMDA-approved villa plots</strong> designed for modern living. With excellent connectivity, top-tier infrastructure, and future appreciation potential, this project is ideal for both <strong>investors and homeowners</strong> looking for a peaceful yet well-connected neighborhood.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <h3 class="fw-bold text-warning">Project Highlights</h3>
+                    <ul class="list-unstyled">
+                        <div>
+                            <li><i class="bi bi-check-circle-fill me-2"></i> HMDA-approved residential layout ensuring hassle-free ownership</li>
+                            <li><i class="bi bi-check-circle-fill me-2"></i> Premium villa plots in a gated community setup</li>
+                            <li><i class="bi bi-check-circle-fill me-2"></i> Bank loan availability for a smooth investment process</li>
+                        </div>
+                        <div>
+                            <li><i class="bi bi-check-circle-fill me-2"></i> Wide blacktop roads ensuring seamless movement within the community</li>
+                            <li><i class="bi bi-check-circle-fill me-2"></i> High appreciation potential due to proximity to key industrial and IT hubs</li>
+                            <li><i class="bi bi-check-circle-fill me-2"></i> Underground utilities for a clutter-free and modern living experience</li>
+                        </div>
+                    </ul>
+                    
+                </div>
+                <div class="col-lg-6">
+                    <img src="./img/pallavi/pallavi (7).jpg" alt="Nandan Emerald Villas"
+                        class="img-fluid rounded shadow urban3image">
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <img src="./img/pallavi/pallavi (8).jpg" alt="Luxury Amenities" class="img-fluid rounded shadow urban3image">
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="fw-bold text-warning">World-Class Infrastructure & Features:</h3>
+                    <p>Pavani Trinity is designed to offer a <strong>secure, well-planned, and future-ready living environment</strong>, complete with:</p>
+                    <ul class="list-unstyled">
+                        <div>
+                            <li><i class="bi bi-check-circle-fill me-2"></i> Well-laid blacktop roads ensuring smooth internal connectivity</li>
+                            <li><i class="bi bi-check-circle-fill me-2"></i> Beautifully landscaped parks & open spaces for relaxation</li>
+                            <li><i class="bi bi-check-circle-fill me-2"></i> 24/7 water supply & underground drainage for convenience</li>
+                        </div>
+                        <div>
+                            <li><i class="bi bi-check-circle-fill me-2"></i> 24/7 security with CCTV surveillance for a safe living environment</li>
+                            <li><i class="bi bi-check-circle-fill me-2"></i> Street lighting & underground power lines for a premium aesthetic</li>
+                        </div>
+                    </ul>
+                    
+                </div>
+             
+            </div>
+
+            <div class="row mt-5">
+
+                <div class="col-lg-6">
+                    <img src="./img/pallavi/pallavi (7).jpg" alt="Luxury Amenities"
+                        class="img-fluid rounded shadow urban3image">
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="fw-bold text-warning">Prime Location & Connectivity:</h3>
+                    <p>Strategically positioned near <strong>Bangalore Highway, Pavani Trinity</strong> provides seamless access to major locations:</p>
+                    <ul class="list-unstyled">
+                        <div>
+                            <li><i class="bi bi-check-circle-fill me-2"></i> Located near Bangalore Highway for excellent road connectivity</li>
+                            <li><i class="bi bi-check-circle-fill me-2"></i> Close to Thimmapur Railway Station for hassle-free travel</li>
+                            <li><i class="bi bi-check-circle-fill me-2"></i> 15 minutes from Shamshabad International Airport</li>
+                        </div>
+                        <div>
+                            <li><i class="bi bi-check-circle-fill me-2"></i> Proximity to Pharma City & Aerospace Hub boosting investment potential</li>
+                            <li><i class="bi bi-check-circle-fill me-2"></i> Surrounded by reputed schools & hospitals ensuring family convenience</li>
+                        </div>
+                    </ul>
+                    
+                </div>
+                <div class="LocationContactSection mt-5">
+                    <h3 class="fw-bold text-warning pt-5">Locate Us & Get in Touch</h3>
+                    <div class="row">
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.955281997085!2d78.2388!3d17.089686999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbc994f59ab65f%3A0x85964cbdc101680!2sPavani%20Trinity%20Real%20Estate%20Developers!5e1!3m2!1sen!2sin!4v1742642382327!5m2!1sen!2sin"
+                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <form action="sendmail.php" method="POST">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" name="name"
+                                        placeholder="Your Name" required>
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Your Email" required>
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" name="subject"
+                                        placeholder="Subject" required>
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                        name="message" style="height: 150px" required></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="text-center py-5">
+                <p>With its <strong>strategic location, premium infrastructure, and future growth potential, Pavani Trinity</strong> is an ideal choice for those looking to build their dream home or make a high-value investment.
+
+        </div>
+    </section>
+    <!-- Project Start -->
+
+    <div class="container-fluid bg-dark pb-5 pt-4 px-0">
+        <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+            <!-- <p class="fw-medium text-uppercase text-primary mb-2">Our Projects</p> -->
+            <h1 class="display-5 text-white mb-5">Project Gallery</h1>
+        </div>
+        <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
+            <div class="project-item">
+                <img class="img-fluid" src="./img/pallavi/pallavi (1).jpg" alt="">
+                <div class="project-title d-none">
+                    <h5 class="text-primary mb-0">Township & Land Development</h5>
+                </div>
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/pallavi/pallavi (2).jpg" alt="">
+                <div class="project-title d-none">
+                    <h5 class="text-primary mb-0">Township & Land Development</h5>
+                </div>
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/pallavi/pallavi (3).jpg" alt="">
+                <div class="project-title d-none">
+                    <h5 class="text-primary mb-0">Township & Land Development</h5>
+                </div>
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/pallavi/pallavi (4).jpg" alt="">
+                <div class="project-title d-none">
+                    <h5 class="text-primary mb-0">Township & Land Development</h5>
+                </div>
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/pallavi/pallavi (5).jpg" alt="">
+                <div class="project-title d-none">
+                    <h5 class="text-primary mb-0">Township & Land Development</h5>
+                </div>
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/pallavi/pallavi (6).jpg" alt="">
+                <div class="project-title d-none">
+                    <h5 class="text-primary mb-0">Township & Land Development</h5>
+                </div>
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/pallavi/pallavi (7).jpg" alt="">
+                <div class="project-title d-none">
+                    <h5 class="text-primary mb-0">Township & Land Development</h5>
+                </div>
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/pallavi/pallavi (8).jpg" alt="">
+                <div class="project-title d-none">
+                    <h5 class="text-primary mb-0">Township & Land Development</h5>
+                </div>
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/pallavi/pallavi (9).jpg" alt="">
+                <div class="project-title d-none">
+                    <h5 class="text-primary mb-0">Township & Land Development</h5>
+                </div>
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/pallavi/pallavi (10).jpg" alt="">
+                <div class="project-title d-none">
+                    <h5 class="text-primary mb-0">Township & Land Development</h5>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- Project End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6">
+                    <h5 class=" mb-4 text-white">Our Office</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Sri Vaarahi Infra Developers Plot No. 77,
+                        Gate No. 4, Opposite : Park, Mathru Srinagar, Miyapur, Hyderabad – 500 049​.</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a target="_blank"
+                            href="tel:+919573382014">+919573382014</a> </p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i><a target="_blank"
+                            href="mailto:srivaarahiinfradevelopers@gmail.com">srivaarahiinfradevelopers@gmail.com</a>
+                    </p>
+                    <div class="d-flex pt-3">
+                        <a class="btn btn-square btn-primary rounded-circle me-2" target="_blank"
+                            href="https://www.instagram.com/srivaarahi3/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" target="_blank"
+                            href="https://www.facebook.com/SriVaarahiInfraDeveloper/"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <!-- <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
+                                class="fab fa-linkedin-in"></i></a> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="index.html">Home</a>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="project.html">Projects</a>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6">
+                    <h5 class=" mb-4">Business Hours</h5>
+                    <p class="mb-1">Monday - Friday</p>
+                    <h6 class="text-light">09:00 am - 07:00 pm</h6>
+                    <p class="mb-1">Saturday</p>
+                    <h6 class="text-light">09:00 am - 12:00 pm</h6>
+                    <p class="mb-1">Sunday</p>
+                    <h6 class="text-light">Closed</h6>
+                </div> -->
+                <div class="col-lg-4 col-md-6">
+                    <h5 class=" mb-4 text-white">Stay Updated with Vaarahi</h5>
+                    <p>Subscribe to our newsletter and get the latest updates on new projects, offers, and real estate
+                        tips directly in your inbox</p>
+                    <div class="position-relative w-100">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright bg-dark py-4">
+        <div class="container text-center">
+            <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="#">Vaarahi</a>, All Right Reserved.</p>
+            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://snaptics.agency/credit-removal". Thank you for your support. ***/-->
+            <p class="mb-0">Designed By <a class="fw-semi-bold" href="https://snaptics.agency">Snaptics</a></p>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
