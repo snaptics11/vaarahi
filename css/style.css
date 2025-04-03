@@ -750,6 +750,7 @@ img.img-fluid.LandDevelopement {
 }
 .project-description .row{
     align-items:center;
+    justify-content: center;
 }
 .project-item h5{
     font-size: 16px;
@@ -799,6 +800,9 @@ img.img-fluid.LandDevelopement {
     letter-spacing: 1px;
 }
 @media screen and (max-width:575px){
+    .LocationContactSection.mt-5 {
+        margin-top: 0px !important;
+    }
     p.fs-5.fw-medium.text-primary.text-uppercase.animated.slideInRight,h1.display-1.text-white.mb-5.animated.slideInRight{
         text-align: center;
     }
