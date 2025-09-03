@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sri VaarahiInfra Developers</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./img/Mainlogo.jpg">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Rubik:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .text-warning {
+            color: #ff5e14 !important;
+        }
+
+        .project-description {
+            position: relative;
+            z-index: 1;
+        }
+
+        .project-description .overlay {
+            background-color: rgb(225 244 252);
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: 0;
+        }
+
+        .project-description .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .list-unstyled {
+            display: flex;
+            gap: 10px;
+        }
+
+        .list-unstyled li {
+            margin-block: 7px;
+            background: #000;
+            padding: 15px;
+            color: #fff;
+        }
+
+        .project-description .text-warning {
+            padding-bottom: 10px;
+        }
+
+        @media screen and (max-width:992px) {
+            .list-unstyled {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-0">
+        <div class="row g-0 d-none d-lg-flex">
+            <div class="col-lg-6 ps-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center text-white">
+                    <span>Follow Us:</span>
+                    <a class="btn btn-link text-light" target="_blank"
+                        href="https://www.facebook.com/SriVaarahiInfraDeveloper/"><i class="fab fa-facebook-f"></i></a>
+                    <!-- <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a> -->
+                    <a class="btn btn-link text-light" target="_blank" href="https://www.instagram.com/srivaarahi3/"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-end">
+                <div class="h-100 topbar-right d-inline-flex align-items-center text-white  py-2 px-5">
+                    <span class="fs-5 fw-bold me-2 "><i class="fa fa-phone-alt me-2"></i>Call Us:</span>
+                    <span class="fs-5 fw-bold">
+                        <a class="text-white" target="_blank" href="tel:+919573382014">+91 95733 82014</a>
+                    </span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
+        <a href="index.html" class="navbar-brand ps-5 me-0">
+            <img class="VaaraHiLogo" src="./img/Mainlogo.png" alt="">
+            <!-- <h1 class=" m-0">Vaarahi</h1> -->
+        </a>
+        <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <!-- <a href="service.html" class="nav-item nav-link">Services</a> -->
+                <a href="project.html" class="nav-item nav-link active">Projects</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="contact.html" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 wow fadeIn " data-wow-delay="0.1s"
+        style="background: rgba(0, 0, 0, 0.7) center/cover no-repeat url(./img/emerald2.jpg);">
+        <div class="container py-5 text-center">
+            <h1 class="display-3  animated slideInRight text-white"
+                style="text-transform: uppercase; background-color: rgba(35, 45, 110, 0.7); width: fit-content;margin: auto; padding: 10px; margin-bottom: 10px;">
+                Solitaire Unity
+            </h1>
+            <p class="breadcrumb-item active " aria-current="page"
+                style="background-color: rgba(35, 45, 110, 0.7); width: fit-content;margin: auto; padding: 10px;font-weight: 600;">
+                Experience Premium Living in Sangareddy
+                HMDA & RERA Approved Villa Plots Adjacent to Sangareddy Town
+            </p>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <section class="project-description py-5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+                        <h2 class="fw-bold text-uppercase m-0">About Solitaire Unity</h2>
+                        <div class="d-flex gap-2">
+                            <a href="https://maps.app.goo.gl/HgzLkq2jD6fHZwdw9" class="btn btn-primary px-3"
+                                target="_blank" rel="noopener noreferrer">
+                                Location
+                            </a>
+                            <a href="./pdfs/solitaire-unity/Solitaire Unity Brochure .pdf" class="btn btn-primary px-3"
+                                target="_blank" rel="noopener noreferrer">
+                                Download Brochure
+                            </a>
+                            <a href="./pdfs/solitaire-unity/Solitaire_Unity_Brochure.pdf" class="btn btn-primary px-3"
+                                target="_blank" rel="noopener noreferrer">
+                                Download Layout
+                            </a>
+                        </div>
+                    </div>
+
+                    <p class="pt-4"><strong>Experience Premium Living in Kondapur, Hyderabad</strong></p>
+                    <p>Solitaire Unity by <strong>Technopolis Constructions</strong> is more than just a home —
+                        it’s where aspirations meet lifestyle. Located in the heart of Kondapur, this premium gated
+                        community
+                        brings together the best of <strong>luxury, convenience, and connectivity</strong>. Offering
+                        thoughtfully
+                        designed 2 and 3 BHK apartments for modern families, Solitaire Unity creates a perfect balance
+                        of
+                        comfort and community living.</p>
+                    <p><strong>RERA Approved (P02400003285)</strong>, this address is not only a home but also a safe
+                        and
+                        promising investment for your future.</p>
+                </div>
+            </div>
+
+            <!-- Project Highlights -->
+            <div class="row mt-5">
+                <div class="col-lg-5">
+                    <h3 class="fw-bold text-warning">Project Highlights:</h3>
+                    <ul class="list-unstyled">
+                        <div>
+                        <li><i class="bi bi-check-circle-fill me-52"></i>Spacious 2 & 3 BHK Apartments</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Total 352 Units across 2.24 acres</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>High-rise living with 3 Basements + Ground + 16
+                            Upper Floors</li>
+                            </div>
+                            <div>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Flat Sizes from 1225 to 2230 sq. ft.</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Exclusive 32,000 sq. ft. Clubhouse with
+                            lifestyle amenities</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Premium specifications with Vastu-compliant
+                            design</li>
+                            </div>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./img/solitaire-unity/highlights.jpg" alt="Solitaire Unity Project Highlights"
+                        class="img-fluid rounded shadow urban3image">
+                </div>
+            </div>
+
+            <!-- Amenities -->
+            <div class="row my-5">
+                <div class="col-lg-6 order-lg-2 p-4">
+                    <h3 class="fw-bold text-warning">Amenities:</h3>
+                    <ul class="list-unstyled">
+                        <div>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Swimming Pool & Fully Equipped Gym</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Indoor & Outdoor Sports Facilities</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Dedicated Kids Play Areas</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Meditation & Wellness Zones</li>
+                        </div>
+                        <div>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Stylish Guest Rooms</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Multi-purpose Community Hall</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Landscaped Open Spaces</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Ample Car Parking & 24/7 Security</li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <img src="./img/solitaire-unity/amenities.jpg" alt="Solitaire Unity Amenities"
+                        class="img-fluid rounded shadow urban4image">
+                </div>
+            </div>
+
+            <!-- Location Advantage -->
+            <div class="row my-5">
+                <div class="col-lg-6">
+                    <h3 class="fw-bold text-warning">Location Advantage:</h3>
+                    <ul class="list-unstyled">
+                        <div>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Just minutes from Hi-Tech City & Gachibowli</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Close to Hyderabad Central University (HCU)</li>
+                        </div>
+                        <div>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Easy access to KIMS Hospital</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Near reputed schools like Sancta Maria
+                            International School</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Surrounded by IT parks, commercial hubs, and
+                            lifestyle conveniences</li>
+                            </div>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./img/solitaire-unity/location.jpg" alt="Solitaire Unity Location"
+                        class="img-fluid rounded shadow urban3image">
+                </div>
+            </div>
+
+            <!-- Why Choose -->
+            <div class="row my-5">
+                <div class="col-lg-6 order-lg-2">
+                    <h3 class="fw-bold text-warning">Why Choose Solitaire Unity?</h3>
+                    <ul class="list-unstyled">
+                        <div>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Premium lifestyle with world-class clubhouse
+                        </li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Excellent connectivity to IT corridors</li>
+                        </div>
+                        <div>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Trusted builder reputation – Technopolis
+                            Constructions</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>RERA approved for safe investment</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Designed for comfort, convenience, and long-term
+                            value</li>
+                            </div>
+                    </ul>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <img src="./img/solitaire-unity/why-choose.jpg" alt="Why Choose Solitaire Unity"
+                        class="img-fluid rounded shadow urban3image">
+                </div>
+            </div>
+
+            <!-- FAQs -->
+            <!-- <div class="">
+                <div class="">
+                    <h3 class="">FAQs</h3>
+                    <ul class="">
+                        <li><strong>1. What is the RERA number of Solitaire Unity?</strong><br>RERA No: P02400003285
+                        </li>
+                        <li><strong>2. What is the size range of flats available?</strong><br>Flats range from 1225 sq.
+                            ft. to 2230 sq. ft.</li>
+                        <li><strong>3. How many units are there in the project?</strong><br>There are 352 premium
+                            apartments.</li>
+                        <li><strong>4. What kind of amenities are provided?</strong><br>A 32,000 sq. ft. clubhouse,
+                            swimming pool, gym, indoor & outdoor games, guest rooms, meditation zones, kids play areas,
+                            and landscaped spaces.</li>
+                        <li><strong>5. Where is Solitaire Unity located?</strong><br>The project is located in Kondapur,
+                            Hyderabad, close to Hi-Tech City, Gachibowli, HCU, KIMS, and Sancta Maria School.</li>
+                    </ul>
+                </div>
+            </div> -->
+
+            <!-- Contact -->
+             <div class="text-center">
+            <p class="mt-5"><strong>Contact Us for Site Visits & Booking</strong></p>
+            <p><strong>📞 Ph:</strong> 9573382014</p>
+                            <p><strong>📧 Mail:</strong> srivaarahiinfradevelopers33@gmail.com</p>
+                            <p><strong>🌐 Web:</strong> <a href="https://srivaarahiinfradevelopers.com"
+                                    target="_blank">srivaarahiinfradevelopers.com</a></p>
+                                    </div>
+            <div class="row mt-5">
+                <div class="LocationContactSection mt-5">
+                    <h3 class="fw-bold text-warning pb-4">Locate Us & Get in Touch</h3>
+                    <div class="row">
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.2572526314564!2d78.364977!3d17.469142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93d5a3c5b7c7%3A0x8ab1e6c52fa9f857!2sKondapur%2C%20Hyderabad!5e0!3m2!1sen!2sin!4v1750830656430!5m2!1sen!2sin"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                            
+                            <form action="sendmail.php" method="POST" class="mt-3">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" name="name"
+                                                placeholder="Your Name" required>
+                                            <label for="name">Your Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email" name="email"
+                                                placeholder="Your Email" required>
+                                            <label for="email">Your Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="subject" name="subject"
+                                                placeholder="Subject" required>
+                                            <label for="subject">Subject</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a message here"
+                                                id="message" name="message" style="height: 150px" required></textarea>
+                                            <label for="message">Message</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Start -->
+
+    <div class="container-fluid bg-dark pb-5 pt-4 px-0">
+        <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+            <!-- <p class="fw-medium text-uppercase text-primary mb-2">Our Projects</p> -->
+            <h1 class="display-5 text-white mb-5">Project Gallery</h1>
+        </div>
+        <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
+            <div class="project-item">
+                <img class="img-fluid" src="./img/bhayaprastha-county/bhayaprastha-county(1).jpg" alt="">
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/bhayaprastha-county/bhayaprastha-county(2).jpg" alt="">
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/bhayaprastha-county/bhayaprastha-county(3).jpg" alt="">
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/bhayaprastha-county/bhayaprastha-county(4).jpg" alt="">
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/bhayaprastha-county/bhayaprastha-county(5).jpg" alt="">
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/bhayaprastha-county/bhayaprastha-county(6).jpg" alt="">
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/bhayaprastha-county/bhayaprastha-county(7).jpg" alt="">
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/bhayaprastha-county/bhayaprastha-county(8).jpg" alt="">
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/bhayaprastha-county/bhayaprastha-county(9).jpg" alt="">
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/bhayaprastha-county/bhayaprastha-county(1).jpg" alt="">
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/bhayaprastha-county/bhayaprastha-county(2).jpg" alt="">
+            </div>
+            <div class="project-item">
+                <img class="img-fluid" src="./img/bhayaprastha-county/bhayaprastha-county(3).jpg" alt="">
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <!-- Project End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6">
+                    <h5 class=" mb-4 text-white">Our Office</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Sri Vaarahi Infra Developers Plot No. 77,
+                        Gate No. 4, Opposite : Park, Mathru Srinagar, Miyapur, Hyderabad – 500 049​.</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a target="_blank"
+                            href="tel:+919573382014">+919573382014</a> </p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i><a target="_blank"
+                            href="mailto:srivaarahiinfradevelopers@gmail.com">srivaarahiinfradevelopers@gmail.com</a>
+                    </p>
+                    <div class="d-flex pt-3">
+                        <a class="btn btn-square btn-primary rounded-circle me-2" target="_blank"
+                            href="https://www.instagram.com/srivaarahi3/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" target="_blank"
+                            href="https://www.facebook.com/SriVaarahiInfraDeveloper/"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <!-- <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
+                                class="fab fa-linkedin-in"></i></a> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="index.html">Home</a>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="project.html">Projects</a>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6">
+                    <h5 class=" mb-4">Business Hours</h5>
+                    <p class="mb-1">Monday - Friday</p>
+                    <h6 class="text-light">09:00 am - 07:00 pm</h6>
+                    <p class="mb-1">Saturday</p>
+                    <h6 class="text-light">09:00 am - 12:00 pm</h6>
+                    <p class="mb-1">Sunday</p>
+                    <h6 class="text-light">Closed</h6>
+                </div> -->
+                <div class="col-lg-4 col-md-6">
+                    <h5 class=" mb-4 text-white">Stay Updated with Vaarahi</h5>
+                    <p>Subscribe to our newsletter and get the latest updates on new projects, offers, and real estate
+                        tips directly in your inbox</p>
+                    <div class="position-relative w-100">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright bg-dark py-4">
+        <div class="container text-center">
+            <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="#">Vaarahi</a>, All Right Reserved.</p>
+            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://snaptics.agency/credit-removal". Thank you for your support. ***/-->
+            <p class="mb-0">Designed By <a class="fw-semi-bold" href="https://snaptics.agency">Snaptics</a></p>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
